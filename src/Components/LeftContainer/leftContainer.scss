@@ -1,0 +1,29 @@
+.leftContainer{
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 30%;
+    background: white;
+    h3{
+        font-weight: 500;
+        padding-left: 25px;
+    }
+    .dataObjectList{
+        list-style: none;
+        color: gray;
+        font-weight: 500;
+        padding-left: 25px;
+        font-size: 13px;
+        li{
+            margin-bottom: 15px;
+            span{
+                margin-left: 15px;
+            }
+        }
+        &:last-child{
+            margin-bottom: 0;
+            li:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}

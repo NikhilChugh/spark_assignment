@@ -1,0 +1,30 @@
+.rightContainer{
+    border-radius: 5px;
+    width: 30%;
+    background: white;
+    h3{
+        font-weight: 500;
+        padding-left: 25px;
+        margin-bottom: 0px;
+    }
+    .dataObjectList{
+        list-style: none;
+        padding-left: 25px;
+        color: gray;
+        font-weight: 500;
+        font-size: 13px;
+        li{
+            span:nth-of-type(2){
+                cursor: pointer;
+            }
+        }
+    }
+    .noValueMessage{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: darkgray;
+    }
+}
